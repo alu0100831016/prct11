@@ -1,0 +1,141 @@
+\documentclass{beamer}
+
+\usepackage[utf8]{inputenc}
+\usepackage{default}
+ \usepackage{graphicx}
+
+\newtheorem{definicion}{Definición}
+\newtheorem{ejemplo}{Ejemplo}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title[Presentación con Beamer]{Numero Pi }
+\author[Alba De León Hdez]{Alba De León Hdez}
+\date[23-04-2014]{23 de abril de 2014}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+  
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \titlepage
+  \begin{small}
+    \begin{center}
+     Facultad de Matemáticas \\
+     Universidad de La Laguna
+    \end{center}
+  \end{small}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Índice}
+  \tableofcontents[pausesections]
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+\section{Primera Sección}
+
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Número Pi}
+
+\begin{definicion}
+$\pi$ (pi) es la relación entre la longitud de una circunferencia y su diámetro, en geometría euclidiana. 
+Es un número irracional y una de las constantes matemáticas más importantes. 
+Se emplea frecuentemente en matemáticas, física e ingeniería. 
+
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Segunda Sección}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+
+\frametitle{Valor del numero Pi}
+\begin{definicion}
+El valor de $\pi$se ha obtenido con diversas aproximaciones a lo largo de la historia, siendo una 
+de las constantes matemáticas que más aparece en las ecuaciones de la física, junto con el número e. 
+Cabe destacar que el cociente entre la longitud de cualquier circunferencia y la de su diámetro 
+no es constante en geometrías no euclídeas.
+\end{definicion}
+
+\end{frame}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\section{Tercera Sección}
+  \begin{frame}
+    \frametitle{Formula}
+    \begin{block}{Lista de formulas}
+      \begin{itemize}
+	\item
+	  Primera formula:
+	  \[ 
+	  x=\frac{a_2 x^2 + a_1 x + a_0}{1+2z^3}, 
+	  \quad x+y^{2n+2}=\sqrt{b^2-4ac}
+	  \]
+	\pause
+
+	\item
+	  Segunda formula:
+	  \[ S_n=a_1+\cdots + a_n = \sum_{i=1}^n a_i \]
+	\pause
+
+	\item
+	  Tercera formula:
+	  \[
+	  \int_{x=0}^{\infty} x\,\text{e}^{-x^2}
+	  \text{d}x=\frac{1}{2},\quad\text{e}^{i\pi}+1=0
+	  \]
+	\pause
+	
+	\item
+	  Cuarta formula:
+	  
+	   r: A = $\pi$ * r^2
+	\pause
+  
+	\item
+	  Quinta formula:
+	  
+	  r: C = 2 * $\pi$ * r
+	  
+	\pause
+      \end{itemize}
+    \end{block}{Lista de formulas}
+  \end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\section{Bibliografía}
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+\begin{frame}
+  \frametitle{Bibliografía}
+
+  \begin{thebibliography}{10}
+    \beamertemplatebookbibitems
+    \bibitem[Número Pi]{Pi}
+  
+    \beamertemplatebookbibitems
+    \bibitem[Número Pi2]{Pi2}
+   
+    {\small http://es.wikipedia.org/}
+
+    {\small http://es.wikipedia.org/wiki/Pi}
+
+  \end{thebibliography}
+\end{frame}
+
+%++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+\end{document}
